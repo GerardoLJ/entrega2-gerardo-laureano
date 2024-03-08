@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Font-Family Google Fonts: Inconsolata-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <!--Fin Font-Family Google Fonts: Inconsolata-->
+
+    <!--Inicio Bootstrap v5.1-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!-- Íconos Bootstrap v5.1-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Inicio CSS -->
+    <link rel="shortcut icon" href="iconos/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Título -->
+    <title>GL Sneakers</title>
+</head>
+
+<body>
+  <!---------------------------Inicio Header--------------------------------> 
+    <header class="mobile">
+      <div class="logo">
+        <a href="../index.html"><img src="../imagenes/logo.png" alt="Logo en forma de tenis deportivos"></a>
+      </div>
+
+      <div class="menu">
+        <a href="#"><img src="../iconos/menu-mobile.png" alt="Imagen menú mobile" id="menu-mobile"></a>
+        <a href="#"><img src="../iconos/usuario.png" alt="Ícono inicio sesión" id="usuario"></a>
+      </div>
+    </header>
+
+    <header class="tablet">
+      <div class="logo">
+        <a href="../index.html"><img src="../imagenes/logo.png" alt="Logo en forma de tenis deportivos"></a>
+      </div>
+
+      <div class="menu">
+        <a href="#"><img src="../iconos/menu-mobile.png" alt="Imagen menú mobile" id="menu-mobile"></a>
+        <a href="#"><img src="../iconos/usuario.png" alt="Ícono inicio sesión" id="usuario"></a>
+        <a href="#"><img src="../iconos/carrito-compras.png" alt="Ícono carrito de compras" id="carrito-compras"></a>
+      </div>
+    </header>
+
+    <header class="desktop">
+      <div class="logo">
+        <a href="../index.html"><img src="../imagenes/logo.png" alt="Logo en forma de tenis deportivos"></a>
+      </div>
+
+      <div class="menu">
+        <div class="menu">
+          <a href="../pages/coleccion.html">
+            <p id="coleccion">NUEVO</p>
+          </a>
+          <a href="#"><img src="../iconos/usuario.png" alt="Ícono inicio sesión" id="usuario"></a>  
+          <a href="#"><img src="../iconos/carrito-compras.png" alt="Ícono carrito de compras" id="carrito-compras"></a>
+          <a href="#"><img src="../iconos/corazon.png" alt="Ícono corazón para wishlist" id="wishlist"></a>
+        </div>
+      </div>
+    </header>
+
+    <header class="desktop-full">
+      <div class="logo">
+        <a href="../index.html"><img src="../imagenes/logo.png" alt="Logo en forma de tenis deportivos"></a>
+      </div>
+
+      <div class="menu">
+        <div class="menu">
+          <a href="../pages/coleccion.html">
+            <p id="coleccion">NUEVO</p>
+        </a>
+          <a href="#"><img src="../iconos/usuario.png" alt="Ícono inicio sesión" id="usuario"></a>
+          <a href="#"><img src="../iconos/carrito-compras.png" alt="Ícono carrito de compras" id="carrito-compras"></a>
+          <a href="#"><img src="../iconos/corazon.png" alt="Ícono corazón para wishlist" id="wishlist"></a>
+        </div>
+      </div>
+    </header>
+
+  <!---------------------------Fin Header-------------------------------->
+
+
+  <!---------------------------Inicio Hero--------------------------------> 
+    <hero>
+      <img src="imagenes/hero-mobile.avif" alt="Imagen principal de un tenis" id="imagen-principal">
+
+      <div class="logo-2">
+        <p>GL SNEAKERS</p>
+      </div>
+
+      <div class="button">
+        <button><a href="pages/coleccion.html">COMPRAR AHORA</a> <img src="iconos/flecha-boton.png" alt="Imagen de flecha apuntando a la derecha para continuar" id="flecha-derecha"></button>
+      </div>
+    </hero>
+  <!---------------------------Fin Hero--------------------------------> 
+
+  <main>
+  <!---------------------------Slider Products 1-------------------------------->   
+  <a href="pages/coleccion.html"><h4 class="slider-products__titulo">Colección 1</h4></a>
+
+  <div class="slider-products">
+
+        <!----Producto 1---->
+        <div class="slider-products__container">
+
+          <!--Contenedor de la imágen del producto-->
+          <div class="slider-products__container-img">
+            <!--Imágen del producto-->
+            <a href="pages/modelo-1.html"><img src="imagenes/product1.1.avif" alt="Imagen producto tenis 1" class="slider-products__img"></a>
+          </div>
+
+          <!--Modelo del producto-->
+          <p class="slider-products__nombre">
+            Tenis Modelo 1
+          </p>
+
+          <!--Precio del producto-->
+          <p class="slider-products__precio">
+            MXN $2,399
+          </p>
+
+          <!--Tipo de producto-->
+          <p class="slider-products__tipo">
+            Calzado
+          </p>
+          
+
+        </div>
+        <!----Fin Producto 1---->
+
+        <!----Producto 2---->
+        <div class="slider-products__container">
+
+          <!--Contenedor de la imágen del producto-->
+          <div class="slider-products__container-img">
+            <!--Imágen del producto-->
+            <a href="pages/modelo-2.html"><img src="imagenes/product2.1.avif" alt="Imagen producto tenis 2" class="slider-products__img"></a>
+          </div>
+
+          <!--Modelo del producto-->
+          <p class="slider-products__nombre">
+            Tenis Modelo 2
+          </p>
+
+          <!--Precio del producto-->
+          <p class="slider-products__precio">
+            MXN $3,399
+          </p>
+
+          <!--Tipo de producto-->
+          <p class="slider-products__tipo">
+            Calzado
+          </p>
+          
+        </div>
+        <!----Fin Producto 2---->
+
+        <!----Producto 3---->
+        <div class="slider-products__container">
+
+          <!--Contenedor de la imágen del producto-->
+          <div class="slider-products__container-img">
+            <!--Imágen del producto-->
+            <a href="pages/modelo-3.html"><img src="imagenes/product3.1.avif" alt="Imagen producto tenis 3" class="slider-products__img"></a>
+          </div>
+
+          <!--Modelo del producto-->
+          <p class="slider-products__nombre">
+            Tenis Modelo 3
+          </p>
+
+          <!--Precio del producto-->
+          <p class="slider-products__precio">
+            MXN $2,499
+          </p>
+
+          <!--Tipo de producto-->
+          <p class="slider-products__tipo">
+            Calzado
+          </p>
+          
+        </div>
+        <!----Fin Producto 3---->
+
+        <!----Producto 4---->
+        <div class="slider-products__container">
+
+          <!--Contenedor de la imágen del producto-->
+          <div class="slider-products__container-img">
+            <!--Imágen del producto-->
+            <a href="pages/modelo-4.html"><img src="imagenes/product4.1.avif" alt="Imagen producto tenis 4" class="slider-products__img"></a>
+          </div>
+
+          <!--Modelo del producto-->
+          <p class="slider-products__nombre">
+            Tenis Modelo 4
+          </p>
+
+          <!--Precio del producto-->
+          <p class="slider-products__precio">
+            MXN $1,699
+          </p>
+
+          <!--Tipo de producto-->
+          <p class="slider-products__tipo">
+            Calzado
+          </p>
+          
+        </div>
+        <!----Fin Producto 4---->
+
+        <!----Producto 5---->
+        <div class="slider-products__container">
+
+          <!--Contenedor de la imágen del producto-->
+          <div class="slider-products__container-img">
+            <!--Imágen del producto-->
+            <a href="pages/modelo-5.html"><img src="imagenes/product5.1.avif" alt="Imagen producto tenis 5" class="slider-products__img"></a>
+          </div>
+
+          <!--Modelo del producto-->
+          <p class="slider-products__nombre">
+            Tenis Modelo 5
+          </p>
+
+          <!--Precio del producto-->
+          <p class="slider-products__precio">
+            MXN $1,699
+          </p>
+
+          <!--Tipo de producto-->
+          <p class="slider-products__tipo">
+            Calzado
+          </p>
+          
+        </div>
+        <!----Fin Producto 5---->
+
+        <!----Producto 6---->
+        <div class="slider-products__container">
+
+          <!--Contenedor de la imágen del producto-->
+          <div class="slider-products__container-img">
+            <!--Imágen del producto-->
+            <a href="pages/modelo-6.html"><img src="imagenes/product6.1.avif" alt="Imagen producto tenis 6" class="slider-products__img"></a>
+          </div>
+
+          <!--Modelo del producto-->
+          <p class="slider-products__nombre">
+            Tenis Modelo 6
+          </p>
+
+          <!--Precio del producto-->
+          <p class="slider-products__precio">
+            MXN $1,499
+          </p>
+
+          <!--Tipo de producto-->
+          <p class="slider-products__tipo">
+            Calzado
+          </p>
+          
+        </div>
+        <!----Fin Producto 6---->
+
+        <!----Producto 7---->
+        <div class="slider-products__container">
+
+          <!--Contenedor de la imágen del producto-->
+          <div class="slider-products__container-img">
+            <!--Imágen del producto-->
+            <a href="pages/modelo-7.html"><img src="imagenes/product7.1.avif" alt="Imagen producto tenis 7" class="slider-products__img"></a>
+          </div>
+
+          <!--Modelo del producto-->
+          <p class="slider-products__nombre">
+            Tenis Modelo 7
+          </p>
+
+          <!--Precio del producto-->
+          <p class="slider-products__precio">
+            MXN $2,499
+          </p>
+
+          <!--Tipo de producto-->
+          <p class="slider-products__tipo">
+            Calzado
+          </p>
+          
+        </div>
+        <!----Fin Producto 7---->
+
+      </div>
+  <!---------------------------Fin Slider Products 1-------------------------------->
+
+
+    <!---------------------------Slider Products 2-------------------------------->   
+    <a href="coleccion-2/coleccion-2.html"><h4 class="slider-products__titulo">Colección 2</h4></a>
+
+    <div class="slider-products">
+
+      <!----Producto 1---->
+      <div class="slider-products__container">
+
+        <!--Contenedor de la imágen del producto-->
+        <div class="slider-products__container-img">
+          <!--Imágen del producto-->
+          <a href="coleccion-2/modelo-1.html"><img src="coleccion-2/imagenes/product-1.1.avif" alt="Imagen producto tenis coleccion 2" class="slider-products__img"></a>
+        </div>
+
+        <!--Modelo del producto-->
+        <p class="slider-products__nombre">
+          Tenis Modelo 1
+        </p>
+
+        <!--Precio del producto-->
+        <p class="slider-products__precio">
+          MXN $2,399
+        </p>
+
+        <!--Tipo de producto-->
+        <p class="slider-products__tipo">
+          Calzado
+        </p>
+        
+
+      </div>
+      <!----Fin Producto 1---->
+
+      <!----Producto 2---->
+      <div class="slider-products__container">
+
+        <!--Contenedor de la imágen del producto-->
+        <div class="slider-products__container-img">
+          <!--Imágen del producto-->
+          <a href="coleccion-2/modelo-2.html"><img src="coleccion-2/imagenes/product-2.1.avif" alt="Imagen producto tenis coleccion 2" class="slider-products__img"></a>
+        </div>
+
+        <!--Modelo del producto-->
+        <p class="slider-products__nombre">
+          Tenis Modelo 2
+        </p>
+
+        <!--Precio del producto-->
+        <p class="slider-products__precio">
+          MXN $2,699
+        </p>
+
+        <!--Tipo de producto-->
+        <p class="slider-products__tipo">
+          Calzado
+        </p>
+        
+      </div>
+      <!----Fin Producto 2---->
+
+      <!----Producto 3---->
+      <div class="slider-products__container">
+
+        <!--Contenedor de la imágen del producto-->
+        <div class="slider-products__container-img">
+          <!--Imágen del producto-->
+          <a href="coleccion-2/modelo-3.html"><img src="coleccion-2/imagenes/product-3.1.avif" alt="Imagen producto tenis coleccion 2" class="slider-products__img"></a>
+        </div>
+
+        <!--Modelo del producto-->
+        <p class="slider-products__nombre">
+          Tenis Modelo 3
+        </p>
+
+        <!--Precio del producto-->
+        <p class="slider-products__precio">
+          MXN $2,499
+        </p>
+
+        <!--Tipo de producto-->
+        <p class="slider-products__tipo">
+          Calzado
+        </p>
+        
+      </div>
+      <!----Fin Producto 3---->
+
+      <!----Producto 4---->
+      <div class="slider-products__container">
+
+        <!--Contenedor de la imágen del producto-->
+        <div class="slider-products__container-img">
+          <!--Imágen del producto-->
+          <a href="coleccion-2/modelo-4.html"><img src="coleccion-2/imagenes/product-4.1.avif" alt="Imagen producto tenis coleccion 2" class="slider-products__img"></a>
+        </div>
+
+        <!--Modelo del producto-->
+        <p class="slider-products__nombre">
+          Tenis Modelo 4
+        </p>
+
+        <!--Precio del producto-->
+        <p class="slider-products__precio">
+          MXN $2,399
+        </p>
+
+        <!--Tipo de producto-->
+        <p class="slider-products__tipo">
+          Calzado
+        </p>
+        
+      </div>
+      <!----Fin Producto 4---->
+
+      <!----Producto 5---->
+      <div class="slider-products__container">
+
+        <!--Contenedor de la imágen del producto-->
+        <div class="slider-products__container-img">
+          <!--Imágen del producto-->
+          <a href="coleccion-2/modelo-5.html"><img src="coleccion-2/imagenes/product-5.1.avif" alt="Imagen producto tenis coleccion 2" class="slider-products__img"></a>
+        </div>
+
+        <!--Modelo del producto-->
+        <p class="slider-products__nombre">
+          Tenis Modelo 5
+        </p>
+
+        <!--Precio del producto-->
+        <p class="slider-products__precio">
+          MXN $2,399
+        </p>
+
+        <!--Tipo de producto-->
+        <p class="slider-products__tipo">
+          Calzado
+        </p>
+        
+      </div>
+      <!----Fin Producto 5---->
+
+      <!----Producto 6---->
+      <div class="slider-products__container">
+
+        <!--Contenedor de la imágen del producto-->
+        <div class="slider-products__container-img">
+          <!--Imágen del producto-->
+          <a href="coleccion-2/modelo-6.html"><img src="coleccion-2/imagenes/product-6.1.avif" alt="Imagen producto tenis coleccion 2" class="slider-products__img"></a>
+        </div>
+
+        <!--Modelo del producto-->
+        <p class="slider-products__nombre">
+          Tenis Modelo 6
+        </p>
+
+        <!--Precio del producto-->
+        <p class="slider-products__precio">
+          MXN $2,399
+        </p>
+
+        <!--Tipo de producto-->
+        <p class="slider-products__tipo">
+          Calzado
+        </p>
+        
+      </div>
+      <!----Fin Producto 6---->
+
+      <!----Producto 7---->
+      <div class="slider-products__container">
+
+        <!--Contenedor de la imágen del producto-->
+        <div class="slider-products__container-img">
+          <!--Imágen del producto-->
+          <a href="coleccion-2/modelo-7.html"><img src="coleccion-2/imagenes/product-7.1.avif" alt="Imagen producto tenis coleccion 2" class="slider-products__img"></a>
+        </div>
+
+        <!--Modelo del producto-->
+        <p class="slider-products__nombre">
+          Tenis Modelo 7
+        </p>
+
+        <!--Precio del producto-->
+        <p class="slider-products__precio">
+          MXN $2,199
+        </p>
+
+        <!--Tipo de producto-->
+        <p class="slider-products__tipo">
+          Calzado
+        </p>
+        
+      </div>
+      <!----Fin Producto 7---->
+
+    </div>
+    <!---------------------------Fin Slider Products 2-------------------------------->
+
+
+    <!---------------------------Slider Products 3-------------------------------->   
+    <a href="coleccion-3/coleccion-3.html"><h4 class="slider-products__titulo">Colección 3</h4></a>
+
+    <div class="slider-products">
+
+      <!----Producto 1---->
+      <div class="slider-products__container">
+
+        <!--Contenedor de la imágen del producto-->
+        <div class="slider-products__container-img">
+          <!--Imágen del producto-->
+          <a href="coleccion-3/modelo-1.html"><img src="coleccion-3/imagenes/product-1.1.avif" alt="Imagen producto tenis coleccion 3" class="slider-products__img"></a>
+        </div>
+
+        <!--Modelo del producto-->
+        <p class="slider-products__nombre">
+          Tenis Modelo 1
+        </p>
+
+        <!--Precio del producto-->
+        <p class="slider-products__precio">
+          MXN $2,399
+        </p>
+
+        <!--Tipo de producto-->
+        <p class="slider-products__tipo">
+          Calzado
+        </p>
+        
+
+      </div>
+      <!----Fin Producto 1---->
+
+      <!----Producto 2---->
+      <div class="slider-products__container">
+
+        <!--Contenedor de la imágen del producto-->
+        <div class="slider-products__container-img">
+          <!--Imágen del producto-->
+          <a href="coleccion-3/modelo-2.html"><img src="coleccion-3/imagenes/product-2.1.avif" alt="Imagen producto tenis coleccion 3" class="slider-products__img"></a>
+        </div>
+
+        <!--Modelo del producto-->
+        <p class="slider-products__nombre">
+          Tenis Modelo 2
+        </p>
+
+        <!--Precio del producto-->
+        <p class="slider-products__precio">
+          MXN $3,399
+        </p>
+
+        <!--Tipo de producto-->
+        <p class="slider-products__tipo">
+          Calzado
+        </p>
+        
+      </div>
+      <!----Fin Producto 2---->
+
+      <!----Producto 3---->
+      <div class="slider-products__container">
+
+        <!--Contenedor de la imágen del producto-->
+        <div class="slider-products__container-img">
+          <!--Imágen del producto-->
+          <a href="coleccion-3/modelo-3.html"><img src="coleccion-3/imagenes/product-3.1.avif" alt="Imagen producto tenis coleccion 3" class="slider-products__img"></a>
+        </div>
+
+        <!--Modelo del producto-->
+        <p class="slider-products__nombre">
+          Tenis Modelo 3
+        </p>
+
+        <!--Precio del producto-->
+        <p class="slider-products__precio">
+          MXN $2,499
+        </p>
+
+        <!--Tipo de producto-->
+        <p class="slider-products__tipo">
+          Calzado
+        </p>
+        
+      </div>
+      <!----Fin Producto 3---->
+
+      <!----Producto 4---->
+      <div class="slider-products__container">
+
+        <!--Contenedor de la imágen del producto-->
+        <div class="slider-products__container-img">
+          <!--Imágen del producto-->
+          <a href="coleccion-3/modelo-4.html"><img src="coleccion-3/imagenes/product-4.1.avif" alt="Imagen producto tenis coleccion 3" class="slider-products__img"></a>
+        </div>
+
+        <!--Modelo del producto-->
+        <p class="slider-products__nombre">
+          Tenis Modelo 4
+        </p>
+
+        <!--Precio del producto-->
+        <p class="slider-products__precio">
+          MXN $1,699
+        </p>
+
+        <!--Tipo de producto-->
+        <p class="slider-products__tipo">
+          Calzado
+        </p>
+        
+      </div>
+      <!----Fin Producto 4---->
+
+      <!----Producto 5---->
+      <div class="slider-products__container">
+
+        <!--Contenedor de la imágen del producto-->
+        <div class="slider-products__container-img">
+          <!--Imágen del producto-->
+          <a href="coleccion-3/modelo-5.html"><img src="coleccion-3/imagenes/product-5.1.avif" alt="Imagen producto tenis coleccion 3" class="slider-products__img"></a>
+        </div>
+
+        <!--Modelo del producto-->
+        <p class="slider-products__nombre">
+          Tenis Modelo 5
+        </p>
+
+        <!--Precio del producto-->
+        <p class="slider-products__precio">
+          MXN $1,699
+        </p>
+
+        <!--Tipo de producto-->
+        <p class="slider-products__tipo">
+          Calzado
+        </p>
+        
+      </div>
+      <!----Fin Producto 5---->
+
+      <!----Producto 6---->
+      <div class="slider-products__container">
+
+        <!--Contenedor de la imágen del producto-->
+        <div class="slider-products__container-img">
+          <!--Imágen del producto-->
+          <a href="coleccion-3/modelo-6.html"><img src="coleccion-3/imagenes/product-6.1.avif" alt="Imagen producto tenis coleccion 3" class="slider-products__img"></a>
+        </div>
+
+        <!--Modelo del producto-->
+        <p class="slider-products__nombre">
+          Tenis Modelo 6
+        </p>
+
+        <!--Precio del producto-->
+        <p class="slider-products__precio">
+          MXN $1,499
+        </p>
+
+        <!--Tipo de producto-->
+        <p class="slider-products__tipo">
+          Calzado
+        </p>
+        
+      </div>
+      <!----Fin Producto 6---->
+
+      <!----Producto 7---->
+      <div class="slider-products__container">
+
+        <!--Contenedor de la imágen del producto-->
+        <div class="slider-products__container-img">
+          <!--Imágen del producto-->
+          <a href="coleccion-3/modelo-7.html"><img src="coleccion-3/imagenes/product-7.1.avif" alt="Imagen producto tenis coleccion 3" class="slider-products__img"></a>
+        </div>
+
+        <!--Modelo del producto-->
+        <p class="slider-products__nombre">
+          Tenis Modelo 7
+        </p>
+
+        <!--Precio del producto-->
+        <p class="slider-products__precio">
+          MXN $2,499
+        </p>
+
+        <!--Tipo de producto-->
+        <p class="slider-products__tipo">
+          Calzado
+        </p>
+        
+      </div>
+      <!----Fin Producto 7---->
+
+    </div>
+    <!---------------------------Fin Slider Products 3-------------------------------->
+  </main>
+
+  <!--Inicio Footer-->
+  <footer>
+    <div class="copy">
+      <p>&copy;GL SNEAKERS 2024.</p>
+    </div>
+
+    <div class="redes">
+      <a href="#"><img src="iconos/instagram.png" alt="Ícono Instagram"></a>
+      <a href="#"><img src="iconos/x.png" alt="Ícono X (Twitter)"></a>
+      <a href=""><img src="iconos/pinterest.png" alt="Ícono Pinterest"></a>
+    </div>
+  </footer>
+  <!--Fin Footer-->
+</body>
+</html>

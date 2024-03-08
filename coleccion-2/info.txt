@@ -1,0 +1,8 @@
+Product 1: MXN $2,399 https://www.adidas.mx/tenis-gazelle-bold/IE0420.html?pr=home_rr&slot=8&rec=mt
+Product 2: MXN $2,699 https://www.adidas.mx/adidas--x-kasina-samba/IE0169.html?pr=home_rr&slot=16&rec=mt
+Product 3: MXN $2,499 https://www.adidas.mx/tenis-gazelle/ID6997.html
+Product 4: MXN $2,399 https://www.adidas.mx/country-og-sftm/ID3546.html
+Product 5: MXN $2,399 https://www.adidas.mx/forum-low/IE0475.html
+Product 6: MXN $2,399 https://www.adidas.mx/tenis-forum-bold/ID7078.html
+Product 7: MXN $2,199 https://www.adidas.mx/tenis-handball-spezial/IE3403.html
+

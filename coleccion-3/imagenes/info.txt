@@ -1,0 +1,7 @@
+Product 1: MXN $ 3,599 https://www.adidas.mx/tenis-crazy-8/IG3904.html
+Product 2: MXN $ 2,599
+Product 3: MXN $ 3,199 https://www.adidas.mx/tenis-centennial-85-high/GY2536.html?pr=product2_rr&slot=4&rec=ds
+Product 4: MXN $ 3,299 https://www.adidas.mx/tenis-forum-84-high/ID4278.html?pr=product2_rr&slot=2&rec=ds
+Product 5: MXN $ 2,299 https://www.adidas.mx/tenis-top-ten-rb/IE1913.html?pr=product_rr&slot=11&rec=ds
+Product 6: MXN $ 2,599 https://www.adidas.mx/tenis-forum-mid/FY4975.html?pr=product2_rr&slot=1&rec=ds
+Product 7: MXN $ 2,599 https://www.adidas.mx/tenis-rivalry-low-86/IF4437.html?pr=product_rr&slot=8&rec=ds
