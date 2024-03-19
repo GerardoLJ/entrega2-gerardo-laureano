@@ -13,49 +13,6 @@
     color: whitesmoke;
   }
   
-  /* *********** Header **************/
-  header {
-    background-color: whitesmoke;
-  
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    align-items: center;
-    height: 8vh;
-    width: 100%;
-  }
-  
-  header .logo img {
-    /*Logo principal en el header*/
-    height: 30px;
-    width: 50px;
-    background-size: cover;
-  }
-  
-  #menu-mobile {
-    height: 25px;
-    width: 25px;
-  }
-  
-  #usuario {
-    height: 25px;
-    width: 25px;
-    margin-left: 10px;
-  }
-  
-  #carrito-compras {
-    height: 25px;
-    width: 25px;
-    margin-left: 10px;
-  }
-  
-  #wishlist {
-    height: 25px;
-    width: 25px;
-    margin-left: 10px;
-  }
-  
-  
   
   
   /* *********** Hero **************/
@@ -208,40 +165,15 @@
   
   /*Header Mobile*/
   @media only screen and (min-width:50px) and (max-width:426px) {
-    header.tablet {
-      display: none;
-    }
-  
-    header.desktop {
-      display: none;
-    }
-  
-    header.desktop-full {
-      display: none;
-    }
   
     main {
       height: 180vh;
     }
   
   }
-  /*Fin Header Mobile*/
   
   
-  /*Header Tablet*/
   @media only screen and (min-width:426px) and (max-width:767px) {
-    header.mobile {
-      display: none;
-    }
-  
-    header.desktop {
-      display: none;
-    }
-  
-    header.desktop-full {
-      display: none;
-    }
-  
   
     hero img#imagen-principal {
       height: 80vh;
@@ -269,72 +201,11 @@
       height: 180vh;
     }
   }
-  /*Fin Header Tablet*/
   
   
   /***********Inicio Desktop***********/
-  /*Inicio Header Desktop*/
+
   @media only screen and (min-width:767px) and (max-width:1700px) { 
-    header.mobile {
-      display: none;
-    }
-  
-    header.tablet {
-      display: none;
-    }
-  
-    header.desktop-full {
-      display: none;
-    }
-  
-    header {
-      height: 65px;
-      justify-content: space-between;
-    }
-  
-    header .menu {
-      display: flex;
-      align-items: center;
-    }
-  
-    header.desktop .logo img {
-      height: 50px;
-      width: 80px;
-    }
-  
-    header .menu p#coleccion {
-      font-weight: bold;
-      font-size: 1.5rem;
-      margin-right: 10px;
-      background-color: #000;
-      color: white;
-    }
-  
-    header .menu p#coleccion:hover {
-      background-color: rgba(210, 105, 30, 0.61);
-      color: black;
-      font-weight: bold;
-    }
-  
-    header #usuario {
-      height: 40px;
-      width: 40px;
-      margin-left: 10px;
-    }
-  
-    header #carrito-compras {
-      height: 40px;
-      width: 40px;
-      margin-left: 10px;
-    }
-  
-    header #wishlist {
-      height: 40px;
-      width: 40px;
-      margin-left: 10px;
-    }
-    
-    /*Fin Header Desktop*/
   
     /*Inicio Hero Desktop*/
     hero img#imagen-principal {
@@ -368,74 +239,8 @@
   
   
   /***********Inicio Desktop 4K***********/
-  /*Inicio Header Desktop*/
-  
   
   @media only screen and (min-width:1700px) and (max-width:3000px) { 
-    header.mobile {
-      display: none;
-    }
-  
-    header.tablet {
-      display: none;
-    }
-  
-    header.desktop-full {
-      display: none;
-    }
-  
-    .mobile {
-      display: none;
-    }
-  
-    header {
-      height: 65px;
-      justify-content: space-between;
-    }
-  
-    header .menu {
-      display: flex;
-      align-items: center;
-    }
-  
-    header.desktop .logo img {
-      height: 50px;
-      width: 80px;
-    }
-  
-    header .menu p#coleccion {
-      font-weight: bold;
-      font-size: 1.5rem;
-      margin-right: 10px;
-      background-color: #000;
-      color: white;
-    }
-  
-    header .menu p#coleccion:hover {
-      background-color: rgba(210, 105, 30, 0.61);
-      color: black;
-      font-weight: bold;
-    }
-  
-    header #usuario {
-      height: 40px;
-      width: 40px;
-      margin-left: 10px;
-    }
-  
-    header #carrito-compras {
-      height: 40px;
-      width: 40px;
-      margin-left: 10px;
-    }
-  
-    header #wishlist {
-      height: 40px;
-      width: 40px;
-      margin-left: 10px;
-    }
-    /*Fin Header Desktop*/
-  
   
   /*Inicio Hero Desktop Full*/
     hero img#imagen-principal {
