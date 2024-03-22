@@ -1,273 +1,323 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-  }
-  
-  body a {
-    color: black;
-  }
-  
-  body a:hover {
-    color: whitesmoke;
-  }
-  
-  
-  
-  /* *********** Hero **************/
-  hero #imagen-principal {
-    width: 100%;
-    height: 60vh;
-    position: relative;
-    background-image: url(../imagenes/hero.avif);
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .logo-2 {
-    /*GL Sneakers*/
-    position: absolute;
-    bottom: 42%;
-    left: 5%;
-    font-size: 2rem;
-    font-weight: bold;
-  }
-  
-  button {
-    font-size: 1rem;
-    height: 37px;
-    position: absolute;
-    bottom: 35%;
-    left: 7%;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid black;
-  
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-    font-family: inconsolata, sans-serif;
-  }
-  
-  hero button:hover {
-    background-color: chocolate;
-  }
-  
-  button #flecha-derecha {
-    margin-left: 15px;
-    height: 30px;
-  }
-  
-  
-  
-  
-  /* *********** Main **************/
-  main {
-    height: 50vh;
-    margin-bottom: 80px;
-  }
-  
-  /***********Slider Products***********/
-  .slider-products {
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-  
-    display: flex;
-    overflow-x: scroll;
-  }
-  
-  .slider-products__container-img {
-    margin-right: 15px;
-  }
-  
-  /*Caja con título*/
-  .slider-products__titulo {
-    background-color: #000;
-    color: #fff;
-    width: 105px;
-    height: 35px;
-    margin-top: 40px;
-    margin-left: 40px;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 15px;
-    font-size: 1.2rem;
-  }
-  
-  /*Imágen del producto*/
-  .slider-products__img {
-    height: 208px;
-    width: 208px;
-  }
-  
-  /*Precio del producto*/
-  .slider-products__precio {
-    margin-left: 10px;
-    margin-top: 10px;
-    bottom: 50px;
-    left: 10px;
-    height: 20px;
-  }
-  
-  .slider-products__nombre {
-    margin-left: 10px;
-    font-weight: bold;
-  }
-  
-  .slider-products__tipo {
-    margin-left: 10px;
-    margin-bottom: 30px;
-    color: gray;
-  }
-  /*Fin de Slider Products*/
-  
-  
-  
-  
-  
-  /* *********** Footer **************/
-  footer {
-    width: 100%;
-    height: 70px;
-    border-top: 1px solid black;
-  }
-  
-  footer .copy {
-    text-align: center;
-    margin-bottom: 12px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-  
-  footer .redes {
-    height: 30px;
-    width: 100%;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  footer img {
-    height: 40px;
-    width: 40px;
-    margin-left: 10px;
-  }
-  
-  
-  
-  
-  /***************Media Queries***************/
-  
-  /*Header Mobile*/
-  @media only screen and (min-width:50px) and (max-width:426px) {
-  
-    main {
-      height: 180vh;
-    }
-  
-  }
-  
-  
-  @media only screen and (min-width:426px) and (max-width:767px) {
-  
-    hero img#imagen-principal {
-      height: 80vh;
-    }
-  
-    hero .logo-2 {
-      bottom: 27%;
-      left: 5%;
-      font-size: 3rem;
-      font-weight: bold;
-    }
-  
-    hero button {
-    font-size: 1.3rem;
-    height: 37px;
-    bottom: 21%;
-    left: 5%;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid black;
-    font-weight: bold;
-    }
-  
-    main {
-      height: 180vh;
-    }
-  }
-  
-  
-  /***********Inicio Desktop***********/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
 
-  @media only screen and (min-width:767px) and (max-width:1700px) { 
-  
-    /*Inicio Hero Desktop*/
-    hero img#imagen-principal {
-      height: 100vh;
-    }
-  
-    hero .logo-2 {
-      bottom: 20%;
-      left: 5%;
-      font-size: 3rem;
-      font-weight: bold;
-    }
-  
-    hero button {
-    font-size: 1.3rem;
-    height: 37px;
-    bottom: 13%;
-    left: 5%;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid black;
-    font-weight: bold;
-    }
-    /*Fin Hero Desktop*/
-    /*Fin Header Desktop*/
-  
-    main {
-      height: 175vh;
-    }
+body a {
+  color: black;
+}
+
+body a:hover {
+  color: whitesmoke;
+}
+
+
+
+/* *********** Hero **************/
+hero #imagen-principal {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-image: url(../imagenes/hero.avif);
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-2 {
+  /*GL Sneakers*/
+  position: absolute;
+  bottom: 42%;
+  left: 5%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button {
+  font-size: 1rem;
+  height: 37px;
+  position: absolute;
+  bottom: 35%;
+  left: 7%;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-family: inconsolata, sans-serif;
+}
+
+hero button:hover {
+  background-color: chocolate;
+}
+
+button #flecha-derecha {
+  margin-left: 15px;
+  height: 30px;
+}
+
+
+
+
+/* *********** Main **************/
+main {
+  height: 50vh;
+  margin-bottom: 80px;
+}
+
+/***********Slider Products***********/
+.slider-products {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+  display: flex;
+  overflow-x: scroll;
+}
+
+.slider-products__container-img {
+  margin-right: 15px;
+}
+
+/*Caja con título*/
+.slider-products__titulo {
+  background-color: #000;
+  color: #fff;
+  width: 105px;
+  height: 35px;
+  margin-top: 40px;
+  margin-left: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+/*Imágen del producto*/
+.slider-products__img {
+  height: 208px;
+  width: 208px;
+}
+
+/*Precio del producto*/
+.slider-products__precio {
+  margin-left: 10px;
+  margin-top: 10px;
+  bottom: 50px;
+  left: 10px;
+  height: 20px;
+}
+
+.slider-products__nombre {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.slider-products__tipo {
+  margin-left: 10px;
+  margin-bottom: 30px;
+  color: gray;
+}
+/*Fin de Slider Products*/
+
+
+
+/* *********** Footer **************/
+footer {
+  width: 100%;
+  height: 70px;
+  border-top: 1px solid black;
+}
+
+footer .copy {
+  text-align: center;
+  margin-bottom: 12px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+footer .redes {
+  height: 30px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+
+
+
+/***************Media Queries***************/
+
+/*************** Mobile ***************/
+
+/*Header Mobile*/
+@media only screen and (min-width:50px) and (max-width:460px) {
+
+  main {
+    height: 180vh;
   }
-  
-  
-  /***********Inicio Desktop 4K***********/
-  
-  @media only screen and (min-width:1700px) and (max-width:3000px) { 
-  
+
+}
+  /*************** Fin Mobile ***************/
+
+
+/*************** Tablet ***************/
+@media only screen and (min-width:460px) and (max-width:769px) {
+
+  hero img#imagen-principal {
+    height: 80vh;
+  }
+
+  hero .logo-2 {
+    bottom: 27%;
+    left: 5%;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  hero button {
+  font-size: 1.3rem;
+  height: 37px;
+  bottom: 21%;
+  left: 5%;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  font-weight: bold;
+  }
+
+  main {
+    height: 180vh;
+  }
+
+
+  /* Inicio Colección */
+  .titulo-coleccion {
+    font-size: 1.5rem; /*Cambiar*/
+}
+
+.coleccion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 240px 240px 240px 240px;
+    row-gap: 20px;
+}
+
+}
+  /*************** Fin Tablet ***************/
+
+
+/***********Inicio Desktop***********/
+
+@media only screen and (min-width:767px) and (max-width:1025px) { 
+
+  /*Inicio Hero Desktop*/
+  hero img#imagen-principal {
+    height: 100vh;
+  }
+
+  hero .logo-2 {
+    bottom: 20%;
+    left: 5%;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  hero button {
+  font-size: 1.3rem;
+  height: 37px;
+  bottom: 13%;
+  left: 5%;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  font-weight: bold;
+  }
+  /*Fin Hero Desktop*/
+  /*Fin Header Desktop*/
+
+  main {
+    height: 175vh;
+  }
+}
+
+
+/*********** Inicio Full HD ***********/
+
+@media only screen and (min-width:1025px) and (max-width:1800px) { 
+
+/*Inicio Hero Desktop Full*/
+  hero img#imagen-principal {
+    height: 120vh;
+  }
+
+  hero .logo-2 {
+    bottom: 20%;
+    left: 5%;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  hero button {
+  font-size: 2.5rem;
+  height: 50px;
+  bottom: 13%;
+  left: 5%;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  font-weight: bold;
+  }
+  /*Fin Hero Desktop Full*/
+
+  main {
+    height: 175vh;
+  }
+}
+
+
+@media only screen and (min-width:1800px) and (max-width:3000px) { 
+  hero img#imagen-principal {
+    height: 90vh;
+  }
   /*Inicio Hero Desktop Full*/
-    hero img#imagen-principal {
-      height: 120vh;
-    }
-  
-    hero .logo-2 {
-      bottom: 20%;
-      left: 5%;
-      font-size: 4rem;
-      font-weight: bold;
-    }
-  
-    hero button {
-    font-size: 2.5rem;
-    height: 50px;
-    bottom: 13%;
-    left: 5%;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid black;
-    font-weight: bold;
-    }
-    /*Fin Hero Desktop Full*/
-  
-    main {
-      height: 140vh;
-    }
+  hero img#imagen-principal {
+    height: 120vh;
   }
-  /**********Desktop Full***********/
+
+  hero .logo-2 {
+    bottom: 20%;
+    left: 5%;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  hero button {
+  font-size: 2.5rem;
+  height: 50px;
+  bottom: 13%;
+  left: 5%;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  font-weight: bold;
+  }
+  /*Fin Hero Desktop Full*/
+
+  main {
+    height: 140vh;
+  }
+}

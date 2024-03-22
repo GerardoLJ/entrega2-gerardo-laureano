@@ -84,19 +84,7 @@ main {
 
   /***************Media Queries***************/
 
-/*Header Mobile*/
 @media only screen and (min-width:50px) and (max-width:426px) {
-    header.tablet {
-      display: none;
-    }
-  
-    header.desktop {
-      display: none;
-    }
-  
-    header.desktop-full {
-      display: none;
-    }
 
     .full {
       display: none;
@@ -116,17 +104,6 @@ main {
   
 /*Header Tablet*/
 @media only screen and (min-width:426px) and (max-width:769px) {
-  header.mobile {
-    display: none;
-  }
-
-  header.desktop {
-    display: none;
-  }
-
-  header.desktop-full {
-    display: none;
-  }
 
   .full {
     display: none;
@@ -150,17 +127,6 @@ main {
 /***********Inicio Desktop***********/
 /*Inicio Header Desktop*/
 @media only screen and (min-width:769px) and (max-width:1700px) { 
-  header.mobile {
-    display: none;
-  }
-
-  header.tablet {
-    display: none;
-  }
-
-  header.desktop-full {
-    display: none;
-  }
 
   .full {
     display: none;
@@ -172,53 +138,6 @@ main {
 
   .general-info-full__container-product {
     display: none;
-  }
-
-  header {
-    height: 65px;
-    justify-content: space-between;
-  }
-
-  header .menu {
-    display: flex;
-    align-items: center;
-  }
-
-  header.desktop .logo img {
-    height: 50px;
-    width: 80px;
-  }
-
-  header .menu p#coleccion {
-    font-weight: bold;
-    font-size: 1.5rem;
-    margin-right: 10px;
-    background-color: #000;
-    color: white;
-  }
-
-  header .menu p#coleccion:hover {
-    background-color: rgba(210, 105, 30, 0.61);
-    color: black;
-    font-weight: bold;
-  }
-
-  header #usuario {
-    height: 40px;
-    width: 40px;
-    margin-left: 10px;
-  }
-
-  header #carrito-compras {
-    height: 40px;
-    width: 40px;
-    margin-left: 10px;
-  }
-
-  header #wishlist {
-    height: 40px;
-    width: 40px;
-    margin-left: 10px;
   }
 
   .general-info-full {
@@ -238,72 +157,15 @@ main {
 
 
 /***********Inicio Desktop 4K***********/
-/*Inicio Header Desktop*/
-
 
 @media only screen and (min-width:1700px) and (max-width:3000px) { 
-  header.mobile {
-    display: none;
-  }
 
-  header.tablet {
-    display: none;
-  }
-
-  header.desktop-full {
-    display: none;
-  }
-
+  /* Header Desktop */
+  
   .mobile {
     display: none;
   }
 
-  header {
-    height: 65px;
-    justify-content: space-between;
-  }
-
-  header .menu {
-    display: flex;
-    align-items: center;
-  }
-
-  header.desktop .logo img {
-    height: 50px;
-    width: 80px;
-  }
-
-  header .menu p#coleccion {
-    font-weight: bold;
-    font-size: 1.5rem;
-    margin-right: 10px;
-    background-color: #000;
-    color: white;
-  }
-
-  header .menu p#coleccion:hover {
-    background-color: rgba(210, 105, 30, 0.61);
-    color: black;
-    font-weight: bold;
-  }
-
-  header #usuario {
-    height: 40px;
-    width: 40px;
-    margin-left: 10px;
-  }
-
-  header #carrito-compras {
-    height: 40px;
-    width: 40px;
-    margin-left: 10px;
-  }
-
-  header #wishlist {
-    height: 40px;
-    width: 40px;
-    margin-left: 10px;
-  }
   /*Fin Header Desktop*/
 
   .general-info {
