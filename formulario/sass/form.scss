@@ -21,11 +21,38 @@ body {
   font-family: 'calibri';
   color: white;
   box-shadow: 7px 13px 37px #000;
-}
 
-.form-register h4 {
-  font-size: 22px;
+    h4{
+      font-size: 22px;
   margin-bottom: 20px;
+    }
+
+    p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    }
+
+    a {
+    color: white;
+    text-decoration: none;
+    }
+
+    a:hover {
+    color: white;
+    text-decoration: underline;
+    }
+
+    .buttons {
+      width: 100%;
+      background: #1f53c5;
+      border:none;
+      padding: 12px;
+      color: white;
+      margin: 16px 0;
+      font-size: 16px;
+    }
 }
 
 
@@ -39,32 +66,4 @@ body {
   font-family: 'calibri';
   font-size: 18px;
   color: white;
-}
-
-.form-register p {
-  height: 40px;
-  text-align: center;
-  font-size: 18px;
-  line-height: 40px;
-}
-
-
-.form-register a {
-  color: white;
-  text-decoration: none;
-}
-
-.form-register a:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-.form-register .buttons {
-  width: 100%;
-  background: #1f53c5;
-  border:none;
-  padding: 12px;
-  color: white;
-  margin: 16px 0;
-  font-size: 16px;
 }
